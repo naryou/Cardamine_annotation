@@ -12,6 +12,7 @@
 
 ## Gene annotation
 Braker3 on masked genome
+
 GeMoMa is implemented in Braker and you can turn it on to annotate UTRs
 
 ## UTR annotation
