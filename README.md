@@ -21,6 +21,8 @@ GUSHR
 
 ## Functional annotation
 
+[EggNog](https://github.com/eggnogdb/eggnog-mapper/wiki/) and [TRAPID](http://bioinformatics.psb.ugent.be/trapid_02/) can be used
+
 
 
 
