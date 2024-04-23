@@ -19,3 +19,9 @@ GeMoMa is implemented in Braker and you can turn it on to annotate UTRs
 GUSHR 
 
 
+## Functional annotation
+
+
+
+
+
