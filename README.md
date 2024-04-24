@@ -4,11 +4,11 @@
 
 ## TE annotation
 
-* Run [RepeatModeler2](https://github.com/Dfam-consortium/RepeatModeler/tree/master) 
-
-* Run [EDTA](https://github.com/oushujun/EDTA) to get a better classification of the repeats. It makes sense to talk to Thomas Wicker for TE libraries to be used.
+* Run [EDTA](https://github.com/oushujun/EDTA) which uses [RepeatModeler2](https://github.com/Dfam-consortium/RepeatModeler/tree/master) too. It makes sense to talk to Thomas Wicker for TE libraries to be used (it's optional).
 
 * Run [RepeatMasker](https://www.repeatmasker.org/RepeatMasker/) to mask the genome for repeats (soft masked; i.e. putting repeat regions into lower case letters and all other regions into upper case letters)
+> [!NOTE]
+> EDTA runs RepeatMasker too but there were some problems and I re-ran it.
 
 ## Gene annotation
 * Align RNA-seq reads to the masked genome assembly using [HISAT2](http://daehwankimlab.github.io/hisat2/)
