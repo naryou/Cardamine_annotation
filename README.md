@@ -6,7 +6,7 @@
 
 * Run [RepeatModeler2](https://github.com/Dfam-consortium/RepeatModeler/tree/master) 
 
-* Run [EDTA]() to get a better classification of the repeats
+* Run [EDTA](https://github.com/oushujun/EDTA) to get a better classification of the repeats. It makes sense to talk to Thomas Wicker for TE libraries to be used.
 
 * Run [RepeatMasker](https://www.repeatmasker.org/RepeatMasker/) to mask the genome for repeats (soft masked; i.e. putting repeat regions into lower case letters and all other regions into upper case letters)
 
@@ -25,12 +25,11 @@
   * You can also prepare protein file of a close species, e.g. Arabidopsis thaliana and merge it with the OrthoDB file.
 
 ## UTR annotation
-You can use [GUSHR]() or [GeMoMa]()
-
+You can use [GUSHR](https://github.com/Gaius-Augustus/GUSHR) which employs [GeMoMa](http://www.jstacs.de/index.php/GeMoMa)
 
 ## Functional annotation
 
-[EggNog](https://github.com/eggnogdb/eggnog-mapper/wiki/) and [TRAPID](http://bioinformatics.psb.ugent.be/trapid_02/) can be used
+[EggNog](https://github.com/eggnogdb/eggnog-mapper/wiki/) and [TRAPID](http://bioinformatics.psb.ugent.be/trapid_02/) can be used.
 
 
 
