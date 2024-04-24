@@ -21,10 +21,11 @@
      
 * Run [Braker3](https://github.com/Gaius-Augustus/BRAKER). Braker runs both GeneMark-ET and AUGUSTUS
 
-GeMoMa is implemented in Braker and you can turn it on to annotate UTRs
+  * Prepare OrthoDB protein file: https://bioinf.uni-greifswald.de/bioinf/partitioned_odb11/ 
+  * You can also prepare protein file of a close species, e.g. Arabidopsis thaliana and merge it with the OrthoDB file.
 
 ## UTR annotation
-GUSHR 
+You can use [GUSHR]() or [GeMoMa]()
 
 
 ## Functional annotation
