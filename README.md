@@ -4,14 +4,22 @@
 
 ## TE annotation
 
-* RepeatModeler2 
+* Run [RepeatModeler2](https://github.com/Dfam-consortium/RepeatModeler/tree/master) 
 
-* EDTA 
+* Run [EDTA]() to get a better classification of the repeats
 
-* RepeatMasker
+* Run [RepeatMasker](https://www.repeatmasker.org/RepeatMasker/) to mask the genome for repeats (soft masked; i.e. putting repeat regions into lower case letters and all other regions into upper case letters)
 
 ## Gene annotation
-Braker3 on masked genome
+* Align RNA-seq reads to the masked genome assembly using [HISAT2](http://daehwankimlab.github.io/hisat2/)
+
+  Note: RNA-seq data from another population is fine
+
+  * Convert the SAM file to BAM file using [samtools](https://github.com/samtools/)
+  * Sort the BAM file
+  * Split the sorted BAM file. For an explanation on the splitting step see this [link](https://www.biostars.org/p/348134/)  
+     
+* Run [Braker3](https://github.com/Gaius-Augustus/BRAKER). Braker runs both GeneMark-ET and AUGUSTUS
 
 GeMoMa is implemented in Braker and you can turn it on to annotate UTRs
 
