@@ -24,8 +24,11 @@
   * Prepare OrthoDB protein file: https://bioinf.uni-greifswald.de/bioinf/partitioned_odb11/ 
   * You can also prepare protein file of a close species, e.g. *Arabidopsis thaliana* and merge it with the OrthoDB file.
 
-[Braker_workflow]: ./Braker_workflow.png
+![Braker workflow][Braker_workflow]
 
+[Braker_workflow]: ./Braker_workflow.PNG
+
+*Braker workflow* from https://github.com/Gaius-Augustus/BRAKER 
 
 ## UTR annotation
 You can use [GUSHR](https://github.com/Gaius-Augustus/GUSHR) which employs [GeMoMa](http://www.jstacs.de/index.php/GeMoMa)
