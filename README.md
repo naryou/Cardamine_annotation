@@ -22,7 +22,7 @@
 * Run [Braker3](https://github.com/Gaius-Augustus/BRAKER). Braker runs both GeneMark-ET and AUGUSTUS
 
   * Prepare OrthoDB protein file: https://bioinf.uni-greifswald.de/bioinf/partitioned_odb11/ 
-  * You can also prepare protein file of a close species, e.g. Arabidopsis thaliana and merge it with the OrthoDB file.
+  * You can also prepare protein file of a close species, e.g. *Arabidopsis thaliana* and merge it with the OrthoDB file.
 
 ## UTR annotation
 You can use [GUSHR](https://github.com/Gaius-Augustus/GUSHR) which employs [GeMoMa](http://www.jstacs.de/index.php/GeMoMa)
