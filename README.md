@@ -18,7 +18,6 @@
 
   * Convert the SAM file to BAM file using [samtools](https://github.com/samtools/)
   * Sort the BAM file
-  * Split the sorted BAM file. For an explanation on the splitting step see this [link](https://www.biostars.org/p/348134/)  
      
 * Run [Braker3](https://github.com/Gaius-Augustus/BRAKER). Braker runs both GeneMark-ET and AUGUSTUS
 
@@ -29,7 +28,6 @@
 You can use [GUSHR](https://github.com/Gaius-Augustus/GUSHR) which employs [GeMoMa](http://www.jstacs.de/index.php/GeMoMa)
 
 ## Functional annotation
-
 [EggNog](https://github.com/eggnogdb/eggnog-mapper/wiki/) and [TRAPID](http://bioinformatics.psb.ugent.be/trapid_02/) can be used.
 
 
