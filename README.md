@@ -13,7 +13,8 @@
 ## Gene annotation
 * Align RNA-seq reads to the masked genome assembly using [HISAT2](http://daehwankimlab.github.io/hisat2/)
 
-  Note: RNA-seq data from another population is fine
+  > [!NOTE]
+  > RNA-seq data from another population is fine
 
   * Convert the SAM file to BAM file using [samtools](https://github.com/samtools/)
   * Sort the BAM file
